@@ -1,0 +1,592 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* Normalize */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Young Serif", serif;
+    font-style: normal;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  li {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  .d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .d-flex-only {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hoverbtn:hover {
+    cursor: pointer;
+  }
+  /* End normalize */
+  
+  /* Start  Header section */
+  .nav {
+    padding: 27px 0 10px 0;
+  }
+  .nav-links {
+    padding: 5px 5px;
+    margin-right: 40px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 35px;
+  }
+  .nav-links:hover {
+    color: #0082f4;
+    border-bottom: 1px solid #0082f4;
+  }
+  .nav-underline {
+    margin: 0 auto;
+    width: 1440px;
+    height: 1px;
+    opacity: 0.1;
+    background: #0283f5;
+    margin-bottom: 150px;
+  }
+  .btn {
+    width: 161px;
+    height: 52px;
+    border-radius: 6px;
+    background: #0082f4;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+  }
+  .btn:hover {
+    cursor: pointer;
+  }
+  /* End Header section */
+  
+  /* Start Hero Section */
+  .hero {
+    gap: 120px;
+    margin-bottom: 170px;
+  }
+  .hero h3 {
+    color: #0080fd;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  .hero h1 {
+    width: 531px;
+    height: 148px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 60.55px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 20px;
+  }
+  .hero h1 span {
+    color: #0082f4;
+    font-family: Roboto;
+    font-size: 60.55px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .hero p {
+    width: 436px;
+    height: 46px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.6;
+    margin-bottom: 30px;
+  }
+  .hero-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 30px;
+  }
+  .hero-btn1 {
+    width: 194px;
+    height: 63px;
+    border-radius: 10px;
+  }
+  .hero-btn2 {
+    width: 188px;
+    height: 63px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 130, 244, 0.1);
+    background-color: #fff;
+  }
+  /* End Hero Section */
+  
+  /* Start Aboutus section */
+  .aboutus {
+    margin-bottom: 210px;
+    gap: 180px;
+  }
+  .aboutus-right h3 {
+    color: #0082f4;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  .aboutus-right h2 {
+    width: 496px;
+    height: 122px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 20px;
+  }
+  .aboutus-right p {
+    width: 503px;
+    height: 90px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.6;
+    margin-bottom: 30px;
+  }
+  .aboutus-right button {
+    width: 193px;
+    height: 63px;
+    border-radius: 10px;
+  }
+  /* End Aboutus section */
+  
+  /*  Start work-cards section */
+  .work-cards {
+    margin-bottom: 134px;
+  }
+  .work-cards h2 {
+    text-align: center;
+    color: #000;
+    font-family: Roboto;
+    font-size: 48.44px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 60px;
+  }
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 90px;
+  }
+  .work-card {
+    text-align: center;
+  }
+  .work-card img {
+    margin-bottom: 60px;
+  }
+  .work-card h3 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 130%;
+    margin-bottom: 10px;
+  }
+  .work-card p {
+    width: 324px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.7;
+  }
+  /* End work-cards section */
+  
+  /* Start customer section */
+  .customer {
+    margin-bottom: 176px;
+  }
+  .customer-top {
+    margin-bottom: 60px;
+  }
+  .customer-bottom{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 67px;
+  }
+  .customer-card {
+    width: 420px;
+    height: 283px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 130, 244, 0.1);
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.06);
+            box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.06);
+    position: relative;
+  }
+  .customer-card-right{
+    position: absolute;
+    top: 30px;
+    left: 140px;
+  }
+  
+  .customer-card-left {
+    width: 62px;
+    height: 283px;
+    background: #0082f4;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+  }
+  .customer-card-img {
+    position: absolute;
+    left: 30px;
+    top: 109px;
+  }
+  .customer-card-img img {
+    border-radius: 40px;
+    border: 2px solid #fff;
+    background: #c4c4c4;
+  }
+  .customer-card-right p {
+    height: 120px;
+    width: 201px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 30px;
+    opacity: 0.7;
+  }
+  .customer-card-right div{
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+  } 
+  .customer-card-right span {
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    opacity: 0.7;
+    background-color: #000;
+    margin-right: 10px;
+    
+  }
+  .customer-card-right h3 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    opacity: 0.9;
+  }
+  .customer-card-right h4 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    opacity: 0.5;
+    margin-left: 40px;
+  }
+  .customer-top h2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 48.44px;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  /* End customer section */
+  
+  /*  Start sign-in section */
+  .wrapper {
+    height: 338px;
+    background-color: rgba(232, 236, 255, 0.3);
+  }
+  .sign-in {
+    padding-top: 75px;
+    text-align: center;
+  }
+  .sign-in h2 {
+    color: #058aff;
+    font-family: Roboto;
+    font-size: 31.25px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 15px;
+  }
+  .sign-in h3 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 30px;
+  }
+  .sign-in-email {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 487px;
+    height: 82px;
+    border-radius: 10px;
+    border: 1px solid rgba(5, 138, 255, 0.2);
+  }
+  .sign-in-img {
+    vertical-align: sub;
+    margin: 0 25px;
+  }
+  input {
+    background: #f8f9fe;
+    padding: 10px;
+    width: 260px;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+  }
+  
+  input::-webkit-input-placeholder {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+  }
+  
+  input::-moz-placeholder {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+  }
+  
+  input:-ms-input-placeholder {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+  }
+  
+  input::-ms-input-placeholder {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+  }
+  
+  input::placeholder {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+  }
+  .sign-in-email button {
+    width: 102px;
+    height: 52px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    border-radius: 10px;
+    background: #0082f4;
+    border: none;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  /* End sign-ing section */
+  
+  /* Footer Section */
+  .footer-top {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 60px 0;
+    gap: 100px;
+  }
+  .footer-top-right {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 45px;
+  }
+  .footer-top-left ul li a {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .footer-top-left  ul li a:hover {
+    color: #0080fd;
+  }
+  .footer-top-right ul li span {
+    color: #000;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .footer-top-right ul li a {
+    display: inline-block;
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.7;
+    padding: 5px 0;
+    margin: 10px 0;
+  }
+  .footer-top-right  ul li a:hover {
+    color: #0080fd;
+  }
+  
+  .email-active {
+    text-decoration: underline;
+  }
+  .footer-bottom {
+    background: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(#058aff),
+      color-stop(97.91%, rgba(57, 55, 206, 0.87))
+    );
+    background: -o-linear-gradient(
+      top,
+      #058aff 0%,
+      rgba(57, 55, 206, 0.87) 97.91%
+    );
+    background: linear-gradient(
+      180deg,
+      #058aff 0%,
+      rgba(57, 55, 206, 0.87) 97.91%
+    );
+    height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer-items {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 130px;
+  }
+  .footer-bottom-left p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .footer-btn {
+    width: 131px;
+    height: 52px;
+    border-radius: 10px;
+    background: #fff;
+    border: none;
+    margin-left: 30px;
+    color: #3c61e1;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .footer-bottom-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  /* End Footer Section */
