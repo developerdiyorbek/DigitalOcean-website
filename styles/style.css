@@ -11,6 +11,11 @@ body {
 a {
   text-decoration: none;
 }
+
+button{
+  background-color: blueviolet !important;
+  color: white !important;
+}
 ul {
   list-style: none;
 }
